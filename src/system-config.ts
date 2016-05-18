@@ -3,11 +3,17 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'moment': 'vendor/ng2-bootstrap/node_modules/moment/moment.js',
+  'ng2-bootstrap': 'vendor/ng2-bootstrap/ng2-bootstrap.js'
 };
 
 /** User packages configuration. */
 const packages: any = {
 };
+
+/** IMPORTANT: this will append the .js extensions to module requests */
+System.defaultJSExtensions = true;
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
@@ -29,6 +35,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/+home',
+  'app/+about',
+  'app/nav',
   /** @cli-barrel */
 ];
 
