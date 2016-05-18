@@ -3,7 +3,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'moment': 'vendor/ng2-bootstrap/node_modules/moment/moment.js',
+  'moment': 'vendor/moment/moment.js',
   'ng2-bootstrap': 'vendor/ng2-bootstrap/ng2-bootstrap.js'
 };
 
